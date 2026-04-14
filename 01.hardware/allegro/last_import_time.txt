@@ -1,0 +1,4 @@
+2026-04-14T15:32:32 ===> "C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstchip.dat"
+2026-04-14T15:32:32 ===> "C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxnet.dat"
+2026-04-14T15:32:32 ===> "C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxprt.dat"
+2026-04-14T15:32:32 ===> "C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstdmlmodels.dat"
