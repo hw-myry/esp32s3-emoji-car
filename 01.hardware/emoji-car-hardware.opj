@@ -1,19 +1,82 @@
 (ExpressProject "emoji-car-hardware"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[04/14/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[04/19/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    (Folder "Library"
+      (File "c:\github\cadence-libs\dcdc_ldo.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\ic.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\ind.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\mcu.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\my_connector.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\my_rlc.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\my_trans_diode.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\osc.olb"
+        (Type "Schematic Library"))
+      (File "c:\github\cadence-libs\soc.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_17.4\tools\capture\library\misc.olb"
+        (Type "Schematic Library"))
+      (File "C:\Github\cadence-libs\ANT.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Github\cadence-libs\memory.OLB"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory"
+       "C:\Github\esp32s3-emoji-car\01.hardware\netlist")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
     (File ".\emoji-car-hardware.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\EMOJI-CAR-HARDWARE.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\emoji-car-hardware.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\emoji-car-hardware.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\emoji-car-hardware-pspicefiles\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\emoji-car-hardware-pspicefiles\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\emoji-car-hardware-pspicefiles\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -23,4 +86,79 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs"))
+  (Folder "Logs")
+  (MPSSessionName "wjq86")
+  (PartMRUSelector
+    (MLG1005S2N0BT000
+      (FullPartName "MLG1005S2N0BT000.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (W25Q128JVPIQ
+      (FullPartName "W25Q128JVPIQ.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MEMORY.OLB")
+      (DeviceIndex "0"))
+    (S2240000101050JY
+      (FullPartName "S2240000101050JY.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\OSC.OLB")
+      (DeviceIndex "0"))
+    (ANT-245-CHP-T
+      (FullPartName "ANT-245-CHP-T.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\ANT.OLB")
+      (DeviceIndex "0"))
+    (LQG15HS2N0S02D
+      (FullPartName "LQG15HS2N0S02D.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (C0402
+      (FullPartName "C0402.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (C0603
+      (FullPartName "C0603.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\github\esp32s3-emoji-car\01.hardware\emoji-car-hardware.dsn")
+      (Path "Design Resources"
+         "c:\github\esp32s3-emoji-car\01.hardware\emoji-car-hardware.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\github\esp32s3-emoji-car\01.hardware\emoji-car-hardware.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "c:\github\cadence-libs\mcu.olb")
+      (Path "Design Resources" "Library"
+         "c:\github\cadence-libs\my_connector.olb")
+      (Path "Design Resources" "Library" "c:\github\cadence-libs\my_rlc.olb")
+      (Path "Design Resources" "Library" "c:\github\cadence-libs\osc.olb")
+      (Path "Design Resources" "Library" "C:\Github\cadence-libs\ANT.OLB")
+      (Path "Design Resources" "Library" "C:\Github\cadence-libs\memory.OLB")
+      (Path "Outputs")
+      (Select "Design Resources" "Library" "c:\github\cadence-libs\my_rlc.olb"
+         "MLG1005S2N0BT000"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 518 0 552"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 641 28 574")
+        (Scroll "193 0")
+        (Zoom "124")
+        (Occurrence "/"))
+      (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU")))
+  (ISPCBBASICLICENSE "false"))

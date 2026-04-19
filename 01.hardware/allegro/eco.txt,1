@@ -1,0 +1,167 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:43:35 2026  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  BOOT         pins ADDED TO this new net
+                                 R2.2           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  EN           pins ADDED TO this new net
+                                 C4.1           R1.2           U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ESP_3V3      pins ADDED TO this new net
+                                 C5.1           C6.1           C7.1           
+                                 C8.1           C9.1           C10.1          
+                                 U1.20          U1.46          U1.55          
+                                 U1.56          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C4.2           C5.2           C6.2           
+                                 C7.2           C8.2           C9.2           
+                                 C10.2          C11.2          C12.2          
+                                 C13.2          C14.2          C15.2          
+                                 U1.57          U2.4           U2.9           
+                                 Y1.2           Y1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LAN          pins ADDED TO this new net
+                                 C12.1          U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01130       pins ADDED TO this new net
+                                 U1.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03351       pins ADDED TO this new net
+                                 C13.1          E1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_IN       pins ADDED TO this new net
+                                 C14.1          U1.54          Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_OUT      pins ADDED TO this new net
+                                 C15.1          U1.53          Y1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPICLK       pins ADDED TO this new net
+                                 U1.33          U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPICS0       pins ADDED TO this new net
+                                 U1.32          U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPID         pins ADDED TO this new net
+                                 U1.35          U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPIHD        pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:43:35 2026  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U1.30          U2.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPIQ         pins ADDED TO this new net
+                                 U1.34          U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPIWP        pins ADDED TO this new net
+                                 U1.31          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_3V3      pins ADDED TO this new net
+                                 R1.1           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD_SPI      pins ADDED TO this new net
+                                 C11.1          U1.29          U2.8           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:43:35 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T
+ C0402_C0402_1UF
+ C0402_C0402_10PF
+ C0402_C0402_100NF
+ C0402_C0402_C0402
+ C0603_C0603_10UF
+ ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8
+ R0402_R0402_10K
+ S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R
+ W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:43:35 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C4                  C0402_C0402_1UF       
+ C5                  C0402_C0402_100NF     
+ C6                  C0402_C0402_1UF       
+ C7                  C0603_C0603_10UF      
+ C8                  C0402_C0402_100NF     
+ C9                  C0402_C0402_100NF     
+ C10                 C0402_C0402_100NF     
+ C11                 C0402_C0402_100NF     
+ C12                 C0402_C0402_C0402     
+ C13                 C0402_C0402_C0402     
+ C14                 C0402_C0402_10PF      
+ C15                 C0402_C0402_10PF      
+ E1                  ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T 
+ R1                  R0402_R0402_10K       
+ R2                  R0402_R0402_10K       
+ U1                  ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8 
+ U2                  W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ 
+ Y1                  S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:43:35 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ E1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ U1.54                          PRIM_FILE      .\pstchip.dat
+ U2.8                           PRIM_FILE      .\pstchip.dat
+ Y1.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      61                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      18                                        |
+|       Slot property added   :      18                                        |
+|                                                                              |
+|   Total ECO changes reported:     107                                        |
+|------------------------------------------------------------------------------|

@@ -2,74 +2,83 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  emoji-car-hardware.brd                                                      |
-|                                                    Tue Apr 14 15:32:32 2026  |
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:53:17 2026  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this new net
-                                 U1.57          
+  ESP_3V3      pins ADDED TO this existing net (pins not previously on any net)
+                                 L1.2                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD3P3_CPU   pins ADDED TO this new net
-                                 U1.46          
+  LAN          pins ADDED TO this existing net (pins not previously on any net)
+                                 L2.1                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD3P3_RTC   pins ADDED TO this new net
-                                 U1.20          
+  N01130       pins ADDED TO this existing net (pins not previously on any net)
+                                 L1.1                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD3P3       pins ADDED TO this new net
-                                 U1.2           U1.3           
+  N03351       pins ADDED TO this existing net (pins not previously on any net)
+                                 L2.2                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDDA1        pins ADDED TO this new net
-                                 U1.55          
+  N04664       pins ADDED TO this new net
+                                 L3.2                           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDDA2        pins ADDED TO this new net
-                                 U1.56          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_SPI      pins ADDED TO this new net
-                                 U1.29          
+  OSC_IN       pins MOVED FROM this net (to net name listed on right)
+                                 C14.1                          
+                                                                         N04664
+                                 Y1.1                           
+                                                                         N04664
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L3.1                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  emoji-car-hardware.brd                                                      |
-|                                                    Tue Apr 14 15:32:32 2026  |
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:53:17 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8
+ LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D
+ MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000
+ SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  emoji-car-hardware.brd                                                      |
-|                                                    Tue Apr 14 15:32:32 2026  |
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:53:17 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U1                  ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8 
+ L1                  MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000 
+ L2                  LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D 
+ L3                  SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  emoji-car-hardware.brd                                                      |
-|                                                    Tue Apr 14 15:32:32 2026  |
+|  C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd           |
+|                                                    Sun Apr 19 22:53:17 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U1.54                          PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L2.2                           PRIM_FILE      .\pstchip.dat
+ L3.2                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |       Nets changed          :       8                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       1                                        |
-|       Slot property added   :       1                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       3                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:      11                                        |
+|   Total ECO changes reported:      17                                        |
 |------------------------------------------------------------------------------|

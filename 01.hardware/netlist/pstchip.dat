@@ -1,5 +1,155 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Apr-14-2026 at 15:29:16}
+{ Using PSTWRITER 17.4.0 d001Apr-19-2026 at 22:53:09}
+primitive 'C0402_C0402_100NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='100nF';
+  end_body;
+end_primitive;
+primitive 'C0402_C0402_C0402';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='C0402';
+  end_body;
+end_primitive;
+primitive 'C0402_C0402_10PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='10pF';
+  end_body;
+end_primitive;
+primitive 'C0402_C0402_1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='1uF';
+  end_body;
+end_primitive;
+primitive 'C0603_C0603_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0603';
+    JEDEC_TYPE='C0603';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T';
+  pin
+    'FEED':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'MTG':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ANT-245-CHP-T';
+    JEDEC_TYPE='XCVR_ANT-245-CHP-T';
+    VALUE='ANT-245-CHP-T';
+  end_body;
+end_primitive;
+primitive 'MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MLG1005S2N0BT000';
+    JEDEC_TYPE='INDC1005X55N';
+    VALUE='MLG1005S2N0BT000';
+  end_body;
+end_primitive;
+primitive 'LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LQG15HS2N0S02D';
+    JEDEC_TYPE='INDC1005X55N';
+    VALUE='LQG15HS2N0S02D';
+  end_body;
+end_primitive;
+primitive 'SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SDCL1005C24NJTDF';
+    JEDEC_TYPE='INDC1005X55N';
+    VALUE='SDCL1005C24NJTDF';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='10K';
+  end_body;
+end_primitive;
 primitive 'ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8';
   pin
     'LNA_IN':
@@ -270,6 +420,81 @@ primitive 'ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8';
     PART_NAME='ESP32-S3R8';
     JEDEC_TYPE='QFN40P700X700X90-57N';
     VALUE='ESP32-S3R8';
+  end_body;
+end_primitive;
+primitive 'W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ';
+  pin
+    'CS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DO(IO1)':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    '/WP(IO2)':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DI(IO0)':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CLK':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'HOLD/RESET(IO3)':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VCC':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND_1':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='W25Q128JVPIQ';
+    JEDEC_TYPE='W25Q128JVPIQ';
+    VALUE='W25Q128JVPIQ';
+  end_body;
+end_primitive;
+primitive 'S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    '2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND#4':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='S2240000101050JY';
+    JEDEC_TYPE='KC2520K120000C10E00';
+    VALUE='C5S-8000-18-3030-X-R';
   end_body;
 end_primitive;
 END.

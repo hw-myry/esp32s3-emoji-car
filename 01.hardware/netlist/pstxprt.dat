@@ -1,0 +1,220 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Apr-19-2026 at 22:53:09 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='EMOJI-CAR-HARDWARE';
+ POST_TIME='Nov  3 2023 23:54:18';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C10 'C0402_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS2385@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins2385@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins2385@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C0402_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS2535@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins2535@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins2535@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C0402_C0402_C0402':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS3287@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins3287@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins3287@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C0402_C0402_C0402':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS3303@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins3303@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins3303@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C0402_C0402_10PF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS4666@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins4666@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins4666@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C0402_C0402_10PF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS4749@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins4749@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins4749@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C0402_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS465@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins465@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins465@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C0402_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS1311@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins1311@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins1311@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C0402_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS1342@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins1342@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins1342@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C0603_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS1367@MY_RLC.C0603.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins1367@my_rlc.\c0603.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins1367@my_rlc.\c0603.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C0402_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS2217@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins2217@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins2217@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C0402_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS2233@MY_RLC.C0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins2233@my_rlc.\c0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins2233@my_rlc.\c0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ E1 'ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS3466@ANT.ANT-245-CHP-T.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins3466@ant.\ant-245-chp-t.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins3466@ant.\ant-245-chp-t.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS5939@MY_RLC.MLG1005S2N0BT000.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins5939@my_rlc.\mlg1005s2n0bt000.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins5939@my_rlc.\mlg1005s2n0bt000.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS6205@MY_RLC.LQG15HS2N0S02D.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins6205@my_rlc.\lqg15hs2n0s02d.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins6205@my_rlc.\lqg15hs2n0s02d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L3 'SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS6245@MY_RLC.SDCL1005C24NJTDF.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins6245@my_rlc.\sdcl1005c24njtdf.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins6245@my_rlc.\sdcl1005c24njtdf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R0402_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS436@MY_RLC.R0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins436@my_rlc.\r0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins436@my_rlc.\r0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R0402_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS4009@MY_RLC.R0402.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins4009@my_rlc.\r0402.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins4009@my_rlc.\r0402.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS3699@MCU.ESP32-S3R8.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins3699@mcu.\esp32-s3r8.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins3699@mcu.\esp32-s3r8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS5117@MEMORY.W25Q128JVPIQ.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins5117@memory.\w25q128jvpiq.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins5117@memory.\w25q128jvpiq.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R':;
+
+SECTION_NUMBER 1
+ '@EMOJI-CAR-HARDWARE.SCHEMATIC1(SCH_1):INS4475@OSC.S2240000101050JY.NORMAL(CHIPS)':
+ C_PATH='@\emoji-car-hardware\.schematic1(sch_1):ins4475@osc.\s2240000101050jy.normal\(chips)',
+ P_PATH='@\emoji-car-hardware\.schematic1(sch_1):page1_ins4475@osc.\s2240000101050jy.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

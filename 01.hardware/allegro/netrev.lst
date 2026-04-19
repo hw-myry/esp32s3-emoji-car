@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : emoji-car-hardware.brd                        )
+(    Drawing          : emoji-car-pcb.brd                             )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Tue Apr 14 15:32:32 2026                      )
+(    Date/Time        : Sun Apr 19 22:53:17 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:/Github/esp32s3-emoji-car/01.hardware/allegro'
+Schematic directory:         'C:/Github/esp32s3-emoji-car/01.hardware/netlist'
 Design Directory:            'C:/Github/esp32s3-emoji-car/01.hardware/allegro'
-Old design name:             'emoji-car-hardware.brd'
-New design name:             'emoji-car-hardware.brd'
+Old design name:             'C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd'
+New design name:             'C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd'
 
-CmdLine: netrev -$ -i C:/Github/esp32s3-emoji-car/01.hardware/allegro -y 1 -h -q netrev_constraint_report.xml C:/Github/esp32s3-emoji-car/01.hardware/allegro/#Taaaaah35640.tmp
+CmdLine: netrev -$ -i C:/Github/esp32s3-emoji-car/01.hardware/netlist -y 1 -h -q netrev_constraint_report.xml C:/Github/esp32s3-emoji-car/01.hardware/allegro/#Taaaabu03068.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstchip.dat 
-   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstchip.dat (00:00:00.01)
-Starting to read C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxprt.dat 
-   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxprt.dat (00:00:00.00)
-Starting to read C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxnet.dat 
-   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/allegro/pstxnet.dat (00:00:00.00)
+Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstchip.dat 
+   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstchip.dat (00:00:00.01)
+Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxprt.dat 
+   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxprt.dat (00:00:00.00)
+Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxnet.dat 
+   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -64,7 +64,7 @@ PADPATH =  C:/Github/cadence-libs/PKG/SOT
 ------ Summary Statistics ------
 
 
-netrev run on Apr 14 15:32:32 2026
+netrev run on Apr 19 22:53:17 2026
    DESIGN NAME : 'EMOJI-CAR-HARDWARE'
    PACKAGING ON Nov  3 2023 23:54:18
 
@@ -89,6 +89,6 @@ netrev run on Apr 14 15:32:32 2026
  No oversight detected
  No warning detected
 
-cpu time      0:00:19
+cpu time      0:00:20
 elapsed time  0:00:00
 

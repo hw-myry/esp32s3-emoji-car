@@ -1,0 +1,97 @@
+\t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sun Apr 19 22:32:36 2026
+\t (00:00:01)         Host=MYRY User=wjq86 Pid=3068 CPUs=16
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Starting new design...
+   (00:00:05) Loading cmds.cxt 
+\i (00:00:05) trapsize 116667
+\i (00:00:05) generaledit 
+\i (00:00:55) new 
+\i (00:01:29) newdrawfillin "emoji-car-pcb.brd" "Board"
+\t (00:01:29) Starting new design...
+\i (00:01:29) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "emoji-car-pcb"
+\i (00:01:29) trapsize 573
+\i (00:01:29) trapsize 573
+\i (00:01:33) QtSignal spbdip_param_group spbdip_units_combo CurrentIndexChanged Millimeter
+\i (00:01:37) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "431.8000"
+\i (00:01:37) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\w (00:01:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:37) trapsize 14558
+\t (00:01:37) Performing DRC...
+\t (00:01:37) Multithreaded DRC update (16 threads).
+\t (00:01:37) No DRC errors detected.
+\i (00:01:37) generaledit 
+\i (00:02:19) xname_flush 
+\i (00:02:20) xname_flush '!' 
+\i (00:02:20) xname_flush 
+\i (00:02:22) xname_flush '!' 
+\i (00:02:24) pick grid 380.5547 199.7402
+\t (00:02:24) last pick:  381.0000 200.6600
+\i (00:02:26) netin 
+\i (00:02:28) setwindow form.niparams
+\i (00:02:28) FORM niparams browse  
+\i (00:02:40) fillin "C:/Github/esp32s3-emoji-car/01.hardware/emoji-car-hardware-PSpiceFiles"
+\i (00:02:42) FORM niparams import  
+\i (00:02:44) fillin confirm
+\i (00:02:47) FORM niparams five_dot_x YES 
+\i (00:02:49) FORM niparams capture_netlist YES 
+\i (00:02:51) fillin yes 
+\i (00:02:53) FORM niparams browse  
+\i (00:02:55) fillin "C:/Github/esp32s3-emoji-car/01.hardware/allegro"
+\i (00:02:56) FORM niparams import  
+\t (00:02:56) Starting Cadence Logic Import...
+\e (00:03:03) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:03:20) setwindow text
+\i (00:03:20) close
+\i (00:03:24) setwindow form.niparams
+\i (00:03:24) FORM niparams cancel  
+\i (00:03:24) setwindow pcb
+\i (00:03:24) generaledit 
+\i (00:03:25) pick grid 442.5731 304.2690
+\t (00:03:25) last pick:  441.9600 304.8000
+\i (00:03:35) pick grid 150.5331 424.8120
+\t (00:03:35) last pick:  149.8600 424.1800
+\i (00:04:49) xname_flush 
+\i (00:04:51) xname_flush '!' 
+\i (00:04:51) xname_flush 
+\i (00:04:52) xname_flush '!' 
+\i (00:05:54) xname_flush 
+\i (00:06:16) xname_flush '!' 
+\i (00:07:10) xname_flush 
+\i (00:07:13) xname_flush '!' 
+\i (00:07:14) xname_flush 
+\i (00:07:15) xname_flush '!' 
+\i (00:08:26) done 
+\i (00:08:26) place manual 
+\i (00:08:27) setwindow form.plc_manual
+\i (00:08:27) FORM plc_manual tree  'Components by refdes' 
+\i (00:08:27) setwindow pcb
+\i (00:08:27) FORM plc_manual placement_list 
+\i (00:08:27) FORM plc_manual categories Components by refdes 
+\i (00:08:27) trapsize 14558
+\i (00:08:29) setwindow form.plc_manual
+\i (00:08:29) FORM plc_manual cancel  
+\i (00:08:29) setwindow pcb
+\i (00:08:29) generaledit 
+\i (00:08:31) netin 
+\i (00:08:37) setwindow form.niparams
+\i (00:08:37) FORM niparams import  
+\t (00:08:37) Starting Cadence Logic Import...
+\e (00:08:37) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
+\i (00:08:45) setwindow text
+\i (00:08:45) close
+\i (00:08:46) setwindow form.niparams
+\i (00:08:46) FORM niparams cancel  
+\i (00:08:46) setwindow pcb
+\i (00:08:46) generaledit 
+\i (00:09:26) xname_flush 
+\i (00:09:29) xname_flush 
+\i (00:09:39) pick grid 295.5340 261.1764
+\t (00:09:39) last pick:  294.6400 261.6200
+\i (00:09:42) netin 
+\i (00:09:43) setwindow form.niparams
+\i (00:09:43) FORM niparams import  
+\t (00:09:43) Starting Cadence Logic Import...
+\e (00:09:44) ERROR(SPMHGE-268): netrev had errors, use Viewlog to review the log file.
