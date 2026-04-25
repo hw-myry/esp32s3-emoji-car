@@ -4,41 +4,19 @@
 (                                                                     )
 (    Drawing          : emoji-car-pcb.brd                             )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Sun Apr 19 22:53:30 2026                      )
+(    Date/Time        : Wed Apr 22 11:43:38 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 State: Placing on layer TOP
 
+         Placed symbol:  Q2 / S8050_SOT95P240X120-3N_S8050 / SOT95P240X120-3N at (216.8816 292.0732)
+         Placed symbol:  R20 / R0402_R0402_10 / R0402 at (220.1078 290.3902)
+         Placed symbol:  R21 / R0402_R0402_1K / R0402 at (222.3110 290.3902)
 
 
-Placed 0 of 0 applicable (17 total) symbols.
-
------------------------------------------------------------------------
-
-State: Placing on layer TOP
-
-         Placed symbol:  U1 / ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8 / QFN40P700X700X90-57N at (251.4600 248.9200)
-         Placed symbol:  U2 / W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ / W25Q128JVPIQ at (259.5672 247.4300)
-         Placed symbol:  Y1 / S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R / KC2520K120000C10E00 at (265.6862 247.0200)
-         Placed symbol:  C10 / C0402_C0402_100NF / C0402 at (269.3394 245.3200)
-         Placed symbol:  C11 / C0402_C0402_100NF / C0402 at (271.5426 245.3200)
-         Placed symbol:  C8 / C0402_C0402_100NF / C0402 at (273.7458 245.3200)
-         Placed symbol:  C9 / C0402_C0402_100NF / C0402 at (275.9490 245.3200)
-         Placed symbol:  C12 / C0402_C0402_C0402 / C0402 at (248.3600 253.7232)
-         Placed symbol:  L3 / SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF / INDC1005X55N at (250.5132 253.7732)
-         Placed symbol:  C14 / C0402_C0402_10PF / C0402 at (252.6664 253.7232)
-         Placed symbol:  C15 / C0402_C0402_10PF / C0402 at (254.8696 253.7232)
-         Placed symbol:  E1 / ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T / XCVR_ANT-245-CHP-T at (260.1328 254.7432)
-         Placed symbol:  R1 / R0402_R0402_10K / R0402 at (265.3960 253.7232)
-         Placed symbol:  R2 / R0402_R0402_10K / R0402 at (267.5992 253.7232)
-         Placed symbol:  L2 / LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D / INDC1005X55N at (269.7524 253.7732)
-         Placed symbol:  C13 / C0402_C0402_C0402 / C0402 at (271.9056 253.7232)
-         Placed symbol:  L1 / MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000 / INDC1005X55N at (274.0588 253.7732)
-
-
-Placed 17 of 17 applicable (17 total) symbols.
+Placed 3 of 3 applicable (3 total) symbols.
 
 -----------------------------------------------------------------------
 

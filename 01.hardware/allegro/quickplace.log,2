@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : emoji-car-pcb.brd                             )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Wed Apr 22 12:20:44 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  C69 / C0402_C0402_100NF / C0402 at (215.8586 290.3902)
+         Placed symbol:  C70 / C0402_C0402_100NF / C0402 at (218.0618 290.3902)
+         Placed symbol:  C72 / C0402_C0402_100NF / C0402 at (220.2650 290.3902)
+         Placed symbol:  C73 / C0402_C0402_100NF / C0402 at (222.4682 290.3902)
+         Placed symbol:  C75 / C0402_C0402_100NF / C0402 at (224.6714 290.3902)
+         Placed symbol:  C71 / C0402_C0402_1UF / C0402 at (226.8746 290.3902)
+         Placed symbol:  C74 / C0402_C0402_1UF / C0402 at (229.0778 290.3902)
+         Placed symbol:  R22 / R0402_R0402_10K / R0402 at (231.2810 290.3902)
+         Placed symbol:  R23 / R0402_R0402_10K / R0402 at (233.4842 290.3902)
+
+
+Placed 9 of 9 applicable (9 total) symbols.
+
+-----------------------------------------------------------------------
+

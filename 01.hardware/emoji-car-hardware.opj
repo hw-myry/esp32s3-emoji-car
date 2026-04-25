@@ -1,6 +1,6 @@
 (ExpressProject "emoji-car-hardware"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[04/19/26]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[04/25/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -27,6 +27,10 @@
       (File "C:\Github\cadence-libs\ANT.OLB"
         (Type "Schematic Library"))
       (File "C:\Github\cadence-libs\memory.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Github\cadence-libs\mic.OLB"
+        (Type "Schematic Library"))
+      (File "C:\Github\cadence-libs\KEY.OLB"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory"
        "C:\Github\esp32s3-emoji-car\01.hardware\netlist")
@@ -42,7 +46,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\EMOJI-CAR-HARDWARE.brd")
+    ("Allegro Netlist Output Board File" ".\allegro\emoji-car-hardware.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -51,11 +55,17 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout"
     (File ".\allegro\emoji-car-hardware.brd"
       (Type "Board File")
       (OutputBoard ".\allegro\emoji-car-hardware.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1"))
+    (File ".\allegro\emoji-car-pcb.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\emoji-car-pcb.brd")
       (NetListPath ".\allegro")
       (ActiveBoard "0")))
   (Folder "Outputs"
@@ -76,6 +86,15 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -89,28 +108,19 @@
   (Folder "Logs")
   (MPSSessionName "wjq86")
   (PartMRUSelector
-    (MLG1005S2N0BT000
-      (FullPartName "MLG1005S2N0BT000.Normal")
-      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+    (SX2B40.000F1510F30
+      (FullPartName "SX2B40.000F1510F30.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\OSC.OLB")
+      (DeviceIndex "0"))
+    (TS3425BA
+      (FullPartName "TS3425BA.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\KEY.OLB")
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (W25Q128JVPIQ
-      (FullPartName "W25Q128JVPIQ.Normal")
-      (LibraryName "C:\GITHUB\CADENCE-LIBS\MEMORY.OLB")
-      (DeviceIndex "0"))
-    (S2240000101050JY
-      (FullPartName "S2240000101050JY.Normal")
-      (LibraryName "C:\GITHUB\CADENCE-LIBS\OSC.OLB")
-      (DeviceIndex "0"))
-    (ANT-245-CHP-T
-      (FullPartName "ANT-245-CHP-T.Normal")
-      (LibraryName "C:\GITHUB\CADENCE-LIBS\ANT.OLB")
-      (DeviceIndex "0"))
-    (LQG15HS2N0S02D
-      (FullPartName "LQG15HS2N0S02D.Normal")
-      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (C0402
       (FullPartName "C0402.Normal")
@@ -120,8 +130,80 @@
       (FullPartName "C0603.Normal")
       (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
       (DeviceIndex "0"))
+    (GZ1608D601TF
+      (FullPartName "GZ1608D601TF.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (SDCL1005C24NJTDF
+      (FullPartName "SDCL1005C24NJTDF.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (MLG1005S2N0BT000
+      (FullPartName "MLG1005S2N0BT000.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (LQG15HS2N0S02D
+      (FullPartName "LQG15HS2N0S02D.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    (WS2812B
+      (FullPartName "WS2812B.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (NS4150B
+      (FullPartName "NS4150B.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (LSM6DS3TR-C
+      (FullPartName "LSM6DS3TR-C.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (LIS3MDLTR
+      (FullPartName "LIS3MDLTR.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
     (VCC
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_TRANS_DIODE.OLB")
+      (DeviceIndex "0"))
+    (WPN252012H1R0MT
+      (FullPartName "WPN252012H1R0MT.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (DeviceIndex "0"))
+    ("TYPEC - 16Pin"
+      (FullPartName "TYPEC - 16Pin.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (AXP2101
+      (FullPartName "AXP2101.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (ZTS6216
+      (FullPartName "ZTS6216.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MIC.OLB")
+      (DeviceIndex "0"))
+    (ES8311
+      (FullPartName "ES8311.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (FPC-18Pin
+      (FullPartName "FPC-18Pin.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MY_CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TC1508S
+      (FullPartName "TC1508S.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\IC.OLB")
+      (DeviceIndex "0"))
+    (W25Q128JVPIQ
+      (FullPartName "W25Q128JVPIQ.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\MEMORY.OLB")
+      (DeviceIndex "0"))
+    (S2240000101050JY
+      (FullPartName "S2240000101050JY.Normal")
+      (LibraryName "C:\GITHUB\CADENCE-LIBS\OSC.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -139,26 +221,74 @@
       (Path "Design Resources" "Library"
          "c:\github\cadence-libs\my_connector.olb")
       (Path "Design Resources" "Library" "c:\github\cadence-libs\my_rlc.olb")
-      (Path "Design Resources" "Library" "c:\github\cadence-libs\osc.olb")
-      (Path "Design Resources" "Library" "C:\Github\cadence-libs\ANT.OLB")
-      (Path "Design Resources" "Library" "C:\Github\cadence-libs\memory.OLB")
+      (Path "Design Resources" "Library"
+         "c:\github\cadence-libs\my_trans_diode.olb")
+      (Path "Design Resources" "Library" "C:\Github\cadence-libs\KEY.OLB")
+      (Path "Layout")
       (Path "Outputs")
-      (Select "Design Resources" "Library" "c:\github\cadence-libs\my_rlc.olb"
-         "MLG1005S2N0BT000"))
+      (Select "Design Resources" "Library"
+         "c:\github\cadence-libs\my_connector.olb" "BLM18PG121SN1D"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 518 0 552"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 458 0 656"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 641 28 574")
-        (Scroll "193 0")
-        (Zoom "124")
+        (Placement "44 0 1 -1 -1 5 28 5 1181 28 678")
+        (Scroll "0 230")
+        (Zoom "240")
         (Occurrence "/"))
       (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MCU")))
+      (Page "04.AUDIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1181 28 678")
+        (Scroll "0 37")
+        (Zoom "133")
+        (Occurrence "/"))
+      (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05.MOTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1181 28 678")
+        (Scroll "542 170")
+        (Zoom "240")
+        (Occurrence "/"))
+      (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03.Peripheral"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1181 28 678")
+        (Scroll "139 0")
+        (Zoom "168")
+        (Occurrence "/"))
+      (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02.POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1181 28 678")
+        (Scroll "290 170")
+        (Zoom "240")
+        (Occurrence "/"))
+      (Path "C:\GITHUB\ESP32S3-EMOJI-CAR\01.HARDWARE\EMOJI-CAR-HARDWARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01.MCU"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 1181 28 678"))
+      (Path "C:\GITHUB\CADENCE-LIBS\MY_RLC.OLB")
+      (Package "GZ1608D601TF")
+      (PartType "1")))
   (ISPCBBASICLICENSE "false"))

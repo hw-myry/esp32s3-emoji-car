@@ -1,5 +1,20 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Apr-19-2026 at 22:53:09}
+{ Using PSTWRITER 17.4.0 d001Apr-25-2026 at 21:23:10}
+primitive 'ANT3216LL00R2400A_ANTC3216X135N_ANT3216LL00R2400A';
+  pin
+    'FEED':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'NC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ANT3216LL00R2400A';
+    JEDEC_TYPE='ANTC3216X135N';
+    VALUE='ANT3216LL00R2400A';
+  end_body;
+end_primitive;
 primitive 'C0402_C0402_100NF';
   pin
     '1':
@@ -30,7 +45,7 @@ primitive 'C0402_C0402_C0402';
     VALUE='C0402';
   end_body;
 end_primitive;
-primitive 'C0402_C0402_10PF';
+primitive 'C0402_C0402_15PF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -42,7 +57,7 @@ primitive 'C0402_C0402_10PF';
   body
     PART_NAME='C0402';
     JEDEC_TYPE='C0402';
-    VALUE='10pF';
+    VALUE='15pF';
   end_body;
 end_primitive;
 primitive 'C0402_C0402_1UF';
@@ -60,6 +75,66 @@ primitive 'C0402_C0402_1UF';
     VALUE='1uF';
   end_body;
 end_primitive;
+primitive 'C0402_C0402_2.2UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='2.2uF';
+  end_body;
+end_primitive;
+primitive 'C0402_C0402_22PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0402';
+    JEDEC_TYPE='C0402';
+    VALUE='22pF';
+  end_body;
+end_primitive;
+primitive 'C0603_C0603_22UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C0603';
+    JEDEC_TYPE='C0603';
+    VALUE='22uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR POL_SMD_2P_63_54_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR POL';
+    JEDEC_TYPE='SMD_2P_63_54';
+    VALUE='100uF';
+  end_body;
+end_primitive;
 primitive 'C0603_C0603_10UF';
   pin
     '1':
@@ -75,22 +150,209 @@ primitive 'C0603_C0603_10UF';
     VALUE='10uF';
   end_body;
 end_primitive;
-primitive 'ANT-245-CHP-T_XCVR_ANT-245-CHP-T_ANT-245-CHP-T';
+primitive 'LED_LED_APT1608QBC_D_LED_B';
   pin
-    'FEED':
+    'C':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    'MTG':
+    'A':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='ANT-245-CHP-T';
-    JEDEC_TYPE='XCVR_ANT-245-CHP-T';
-    VALUE='ANT-245-CHP-T';
+    PART_NAME='LED';
+    JEDEC_TYPE='LED_APT1608QBC_D';
+    VALUE='LED_B';
   end_body;
 end_primitive;
-primitive 'MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000';
+primitive 'ES8311_QFN40P300X300X60-21N_ES8311';
+  pin
+    'CCLK':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'MCLK':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'PVDD':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DVDD':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DGND':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SCLK/DMIC_SCL':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'ASDOUT':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'LRCK':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DSDIN':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'AGND':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'AVDD':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'OUTP':
+      PIN_NUMBER='(12)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'OUTN':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DACVREF':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'ADCVREF':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VMID':
+      PIN_NUMBER='(16)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'MIC1N':
+      PIN_NUMBER='(17)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'MIC1P/DMIC_SDA':
+      PIN_NUMBER='(18)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CDATA':
+      PIN_NUMBER='(19)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CE':
+      PIN_NUMBER='(20)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'EP':
+      PIN_NUMBER='(21)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='ES8311';
+    JEDEC_TYPE='QFN40P300X300X60-21N';
+    VALUE='ES8311';
+  end_body;
+end_primitive;
+primitive 'TYPEC - 16PIN_MOLEX_2171790001_TYPEC-16P';
+  pin
+    'GND1':
+      PIN_NUMBER='(A1B12)';
+      PINUSE='POWER';
+    'VBUS1':
+      PIN_NUMBER='(A4B9)';
+      PINUSE='POWER';
+    'DP1':
+      PIN_NUMBER='(A6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CC1':
+      PIN_NUMBER='(A5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SBU1':
+      PIN_NUMBER='(A8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DN1':
+      PIN_NUMBER='(A7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SHIELD4':
+      PIN_NUMBER='(SH4)';
+      PINUSE='UNSPEC';
+    'GND2':
+      PIN_NUMBER='(B1A12)';
+      PINUSE='POWER';
+    'VBUS2':
+      PIN_NUMBER='(B4A9)';
+      PINUSE='POWER';
+    'DP2':
+      PIN_NUMBER='(B6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CC2':
+      PIN_NUMBER='(B5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SBU2':
+      PIN_NUMBER='(B8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'DN2':
+      PIN_NUMBER='(B7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SHIELD1':
+      PIN_NUMBER='(SH1)';
+      PINUSE='UNSPEC';
+    'SHIELD2':
+      PIN_NUMBER='(SH2)';
+      PINUSE='UNSPEC';
+    'SHIELD3':
+      PIN_NUMBER='(SH3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TYPEC - 16Pin';
+    JEDEC_TYPE='MOLEX_2171790001';
+    VALUE='TYPEC-16P';
+  end_body;
+end_primitive;
+primitive 'ZX-MX1.25-2PLT_AMPHENOL_10114830-10102LF_ZX-MX1.25-2PLT';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -100,12 +362,58 @@ primitive 'MLG1005S2N0BT000_INDC1005X55N_MLG1005S2N0BT000';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='MLG1005S2N0BT000';
-    JEDEC_TYPE='INDC1005X55N';
-    VALUE='MLG1005S2N0BT000';
+    PART_NAME='ZX-MX1.25-2PLT';
+    JEDEC_TYPE='AMPHENOL_10114830-10102LF';
+    VALUE='ZX-MX1.25-2PLT';
+    NC_PINS='(SH1,SH2)';
   end_body;
 end_primitive;
-primitive 'LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D';
+primitive 'ZX-XH2.54-2PZZ_HX254-1X2_ZX-XH2.54-2PZZ';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ZX-XH2.54-2PZZ';
+    JEDEC_TYPE='HX254-1X2';
+    VALUE='ZX-XH2.54-2PZZ';
+  end_body;
+end_primitive;
+primitive 'BLM18PG121SN1D_C0603_BLM18PG121SN1D';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BLM18PG121SN1D';
+    JEDEC_TYPE='C0603';
+    VALUE='BLM18PG121SN1D';
+  end_body;
+end_primitive;
+primitive 'WPN252012H1R0MT_IND_LQH2HPZ1R0MGRL_WPN252012H1R0MT';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='WPN252012H1R0MT';
+    JEDEC_TYPE='IND_LQH2HPZ1R0MGRL';
+    VALUE='WPN252012H1R0MT';
+  end_body;
+end_primitive;
+primitive 'LQG15HS2N0S02D_R0402_LQG15HS2N0S02D';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -116,11 +424,26 @@ primitive 'LQG15HS2N0S02D_INDC1005X55N_LQG15HS2N0S02D';
   end_pin;
   body
     PART_NAME='LQG15HS2N0S02D';
-    JEDEC_TYPE='INDC1005X55N';
+    JEDEC_TYPE='R0402';
     VALUE='LQG15HS2N0S02D';
   end_body;
 end_primitive;
-primitive 'SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF';
+primitive 'MLG1005S2N0BT000_R0402_MLG1005S2N0BT000';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MLG1005S2N0BT000';
+    JEDEC_TYPE='R0402';
+    VALUE='MLG1005S2N0BT000';
+  end_body;
+end_primitive;
+primitive 'SDCL1005C24NJTDF_R0402_SDCL1005C24NJTDF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -131,8 +454,59 @@ primitive 'SDCL1005C24NJTDF_INDC1005X55N_SDCL1005C24NJTDF';
   end_pin;
   body
     PART_NAME='SDCL1005C24NJTDF';
-    JEDEC_TYPE='INDC1005X55N';
+    JEDEC_TYPE='R0402';
     VALUE='SDCL1005C24NJTDF';
+  end_body;
+end_primitive;
+primitive 'GZ1608D601TF_C0603_GZ1608D601TF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='GZ1608D601TF';
+    JEDEC_TYPE='C0603';
+    VALUE='GZ1608D601TF';
+  end_body;
+end_primitive;
+primitive 'AO3401A_SOT23-3_AO3401A';
+  pin
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AO3401A';
+    JEDEC_TYPE='SOT23-3';
+    VALUE='AO3401A';
+  end_body;
+end_primitive;
+primitive 'S8050_SOT95P240X120-3N_S8050';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='S8050';
+    JEDEC_TYPE='SOT95P240X120-3N';
+    VALUE='S8050';
   end_body;
 end_primitive;
 primitive 'R0402_R0402_10K';
@@ -148,6 +522,117 @@ primitive 'R0402_R0402_10K';
     PART_NAME='R0402';
     JEDEC_TYPE='R0402';
     VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_150K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='150K';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_10';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='10';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='1K';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_5.1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='5.1K';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_22';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='22';
+  end_body;
+end_primitive;
+primitive 'R0402_R0402_0';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R0402';
+    JEDEC_TYPE='R0402';
+    VALUE='0';
+  end_body;
+end_primitive;
+primitive 'TS3425BA_SMD_4P_42_32_TS3425BA';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TS3425BA';
+    JEDEC_TYPE='SMD_4P_42_32';
+    VALUE='TS3425BA';
   end_body;
 end_primitive;
 primitive 'ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8';
@@ -422,6 +907,27 @@ primitive 'ESP32-S3R8_QFN40P700X700X90-57N_ESP32-S3R8';
     VALUE='ESP32-S3R8';
   end_body;
 end_primitive;
+primitive 'WS2812B-B_LED_WS2812B-B_WS2812B-B';
+  pin
+    'VDD':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'DOUT':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+    'VSS':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'DIN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='WS2812B-B';
+    JEDEC_TYPE='LED_WS2812B-B';
+    VALUE='WS2812B-B';
+  end_body;
+end_primitive;
 primitive 'W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ';
   pin
     'CS':
@@ -476,7 +982,433 @@ primitive 'W25Q128JVPIQ_W25Q128JVPIQ_W25Q128JVPIQ';
     VALUE='W25Q128JVPIQ';
   end_body;
 end_primitive;
-primitive 'S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R';
+primitive 'TC1508S_SOIC127P686X203-16N_TC1508S';
+  pin
+    'INC':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'IND':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VDD#8':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+    'OUTD':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'PGND#11':
+      PIN_NUMBER='(11)';
+      PINUSE='POWER';
+    'OUTC':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'OUTB':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'NC4':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'PGND#15':
+      PIN_NUMBER='(15)';
+      PINUSE='POWER';
+    'OUTA':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'INA':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'INB':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'VDD#4':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'NC2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TC1508S';
+    JEDEC_TYPE='SOIC127P686X203-16N';
+    VALUE='TC1508S';
+  end_body;
+end_primitive;
+primitive 'FPC-18PIN_OMRON_XF2M-1815-1A_XF2M-1815-1A';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='FPC-18Pin';
+    JEDEC_TYPE='OMRON_XF2M-1815-1A';
+    VALUE='XF2M-1815-1A';
+    NC_PINS='(19,20)';
+  end_body;
+end_primitive;
+primitive 'ZTS6216_SMD_4P_28_19_ZTS6216';
+  pin
+    'OUT':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'GND#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'GND#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'VDD':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='ZTS6216';
+    JEDEC_TYPE='SMD_4P_28_19';
+    VALUE='ZTS6216';
+  end_body;
+end_primitive;
+primitive 'AXP2101_QFN40P500X500X90-41N_AXP2101';
+  pin
+    'CHGLED':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VREF':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'FB3':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'LX3':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'VIN3':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'VIN4':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'LX4':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'FB4':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'CPULDOS':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'DLDO2':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'BLDO1':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'BLDOIN':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'BLDO2':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'ALDO4':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'ALDO3':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'ALDOIN':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    'ALDO1':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'ALDO2':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'DLDO1':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'FB1':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'LX1':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'VIN1':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    'VIN2':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    'LX2':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    'FB2':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+    'VBACKUP':
+      PIN_NUMBER='(27)';
+      PINUSE='UNSPEC';
+    'VRTC':
+      PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'PWROK':
+      PIN_NUMBER='(29)';
+      PINUSE='UNSPEC';
+    'PWRON':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    'TS':
+      PIN_NUMBER='(31)';
+      PINUSE='UNSPEC';
+    'GPIO1/FB5/RTC/LDO2':
+      PIN_NUMBER='(32)';
+      PINUSE='UNSPEC';
+    'BAT':
+      PIN_NUMBER='(33)';
+      PINUSE='UNSPEC';
+    'VSYS':
+      PIN_NUMBER='(34)';
+      PINUSE='UNSPEC';
+    'SW/LX5':
+      PIN_NUMBER='(35)';
+      PINUSE='UNSPEC';
+    'VMID':
+      PIN_NUMBER='(36)';
+      PINUSE='UNSPEC';
+    'VBUS':
+      PIN_NUMBER='(37)';
+      PINUSE='UNSPEC';
+    'IRQ':
+      PIN_NUMBER='(38)';
+      PINUSE='UNSPEC';
+    'SDA':
+      PIN_NUMBER='(39)';
+      PINUSE='UNSPEC';
+    'SCK':
+      PIN_NUMBER='(40)';
+      PINUSE='UNSPEC';
+    'EP':
+      PIN_NUMBER='(41)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AXP2101';
+    JEDEC_TYPE='QFN40P500X500X90-41N';
+    VALUE='AXP2101';
+  end_body;
+end_primitive;
+primitive 'LIS3MDLTR_XDCR_LIS3MDLTR_LIS3MDLTR';
+  pin
+    'SCL/SPC':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'RSVD1':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'C1':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'VDD_IO':
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+    'INT':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(*)';
+    'DRDY':
+      PIN_NUMBER='(8)';
+      OUTPUT_LOAD='(*)';
+    'SDO/SA1':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CS':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+    'SDA/SDI/SDO':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'RSVD2':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LIS3MDLTR';
+    JEDEC_TYPE='XDCR_LIS3MDLTR';
+    VALUE='LIS3MDLTR';
+  end_body;
+end_primitive;
+primitive 'LSM6DS3TR-C_LGA-14-25X3MM_LSM6DS3TR-C';
+  pin
+    'SDO/SA0':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SDX':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SCX':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INT1':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VDDIO':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND_1':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'VDD':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'INT2':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'CS':
+      PIN_NUMBER='(12)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SCL':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SDA':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    PART_NAME='LSM6DS3TR-C';
+    JEDEC_TYPE='LGA-14-25X3MM';
+    VALUE='LSM6DS3TR-C';
+    NC_PINS='(10,11)';
+  end_body;
+end_primitive;
+primitive 'NS4150B_SOP65P490X110-8N_NS4150B';
+  pin
+    'CTRL':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'BYPASS':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'INP':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'INN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'VON':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'VCC':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'VOP':
+      PIN_NUMBER='(8)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='NS4150B';
+    JEDEC_TYPE='SOP65P490X110-8N';
+    VALUE='NS4150B';
+  end_body;
+end_primitive;
+primitive 'SX2B40.000F1510F30_KC2520K120000C10E00_SX2B40.000F1510F30';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -492,9 +1424,9 @@ primitive 'S2240000101050JY_KC2520K120000C10E00_C5S-8000-18-3030-X-R';
       PINUSE='POWER';
   end_pin;
   body
-    PART_NAME='S2240000101050JY';
+    PART_NAME='SX2B40.000F1510F30';
     JEDEC_TYPE='KC2520K120000C10E00';
-    VALUE='C5S-8000-18-3030-X-R';
+    VALUE='SX2B40.000F1510F30';
   end_body;
 end_primitive;
 END.

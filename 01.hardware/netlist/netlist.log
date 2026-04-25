@@ -1,9 +1,17 @@
-{ Using PSTWRITER 17.4.0 d001Apr-19-2026 at 22:53:09 }
+{ Using PSTWRITER 17.4.0 d001Apr-25-2026 at 21:23:09 }
 
-#1 WARNING(ORCAP-36042): Pin "VDD3P3" is renamed to "VDD3P3#2" as visible power pin of same name already exists in Package ESP32-S3R8 , U1: SCHEMATIC1, MCU (1.10, 0.40).
-#2 WARNING(ORCAP-36042): Pin "VDD3P3" is renamed to "VDD3P3#3" as visible power pin of same name already exists in Package ESP32-S3R8 , U1: SCHEMATIC1, MCU (1.10, 0.40).
-#3 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package S2240000101050JY , Y1: SCHEMATIC1, MCU (3.90, 5.50).
-#4 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package S2240000101050JY , Y1: SCHEMATIC1, MCU (3.90, 5.50).
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.6" ignored for U1: SCHEMATIC1, 01.MCU (1.50, 0.30). Connecting pin to net "LCD_BLK".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.7" ignored for U1: SCHEMATIC1, 01.MCU (1.50, 0.30). Connecting pin to net "TP_RST".
+#3 WARNING(ORCAP-36042): Pin "VDD3P3" is renamed to "VDD3P3#2" as visible power pin of same name already exists in Package ESP32-S3R8 , U1: SCHEMATIC1, 01.MCU (1.50, 0.30).
+#4 WARNING(ORCAP-36042): Pin "VDD3P3" is renamed to "VDD3P3#3" as visible power pin of same name already exists in Package ESP32-S3R8 , U1: SCHEMATIC1, 01.MCU (1.50, 0.30).
+#5 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#8" as visible power pin of same name already exists in Package TC1508S , U3: SCHEMATIC1, 05.MOTOR (2.40, 2.90).
+#6 WARNING(ORCAP-36042): Pin "PGND" is renamed to "PGND#11" as visible power pin of same name already exists in Package TC1508S , U3: SCHEMATIC1, 05.MOTOR (2.40, 2.90).
+#7 WARNING(ORCAP-36042): Pin "PGND" is renamed to "PGND#15" as visible power pin of same name already exists in Package TC1508S , U3: SCHEMATIC1, 05.MOTOR (2.40, 2.90).
+#8 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#4" as visible power pin of same name already exists in Package TC1508S , U3: SCHEMATIC1, 05.MOTOR (2.40, 2.90).
+#9 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package ZTS6216 , U5: SCHEMATIC1, 04.AUDIO (5.60, 0.50).
+#10 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#3" as visible power pin of same name already exists in Package ZTS6216 , U5: SCHEMATIC1, 04.AUDIO (5.60, 0.50).
+#11 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#2" as visible power pin of same name already exists in Package SX2B40.000F1510F30 , Y1: SCHEMATIC1, 01.MCU (2.20, 5.10).
+#12 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#4" as visible power pin of same name already exists in Package SX2B40.000F1510F30 , Y1: SCHEMATIC1, 01.MCU (2.20, 5.10).
 INFO(ORCAP-36080): Scanning netlist files ...
 
 Loading... C:\Github\esp32s3-emoji-car\01.hardware\netlist\pstchip.dat

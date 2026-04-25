@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : emoji-car-pcb.brd                             )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Sun Apr 19 22:53:17 2026                      )
+(    Date/Time        : Sat Apr 25 21:23:19 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,12 @@ Design Directory:            'C:/Github/esp32s3-emoji-car/01.hardware/allegro'
 Old design name:             'C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd'
 New design name:             'C:/Github/esp32s3-emoji-car/01.hardware/allegro/emoji-car-pcb.brd'
 
-CmdLine: netrev -$ -i C:/Github/esp32s3-emoji-car/01.hardware/netlist -y 1 -h -q netrev_constraint_report.xml C:/Github/esp32s3-emoji-car/01.hardware/allegro/#Taaaabu03068.tmp
+CmdLine: netrev -$ -i C:/Github/esp32s3-emoji-car/01.hardware/netlist -y 1 -h -q netrev_constraint_report.xml C:/Github/esp32s3-emoji-car/01.hardware/allegro/#Taaabcw21832.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstchip.dat 
-   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstchip.dat (00:00:00.01)
+   Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstchip.dat (00:00:00.00)
 Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxprt.dat 
    Finished reading C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxprt.dat (00:00:00.00)
 Starting to read C:/Github/esp32s3-emoji-car/01.hardware/netlist/pstxnet.dat 
@@ -49,6 +49,9 @@ PSMPATH =  C:/Github/cadence-libs/PKG/SOT
            C:/Github/cadence-libs/PKG/SOD 
            C:/Github/cadence-libs/PKG/IND 
            C:/Github/cadence-libs/PKG/BGA 
+           C:/Github/cadence-libs/PKG/SMD 
+           C:/Github/cadence-libs/PKG/LGA 
+           C:/Github/cadence-libs/PKG/SOP 
 
 PADPATH =  C:/Github/cadence-libs/PKG/SOT 
            C:/Github/cadence-libs/PKG/OSC 
@@ -59,12 +62,16 @@ PADPATH =  C:/Github/cadence-libs/PKG/SOT
            C:/Github/cadence-libs/PKG/SOD 
            C:/Github/cadence-libs/PKG/IND 
            C:/Github/cadence-libs/PKG/BGA 
+           C:/Github/cadence-libs/PKG/SMD 
+           C:/Github/cadence-libs/PKG/LGA 
+           C:/Github/cadence-libs/PKG/SOP 
+           C:/Github/cadence-libs/PKG/VIA 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Apr 19 22:53:17 2026
+netrev run on Apr 25 21:23:19 2026
    DESIGN NAME : 'EMOJI-CAR-HARDWARE'
    PACKAGING ON Nov  3 2023 23:54:18
 
@@ -89,6 +96,6 @@ netrev run on Apr 19 22:53:17 2026
  No oversight detected
  No warning detected
 
-cpu time      0:00:20
+cpu time      0:00:14
 elapsed time  0:00:00
 

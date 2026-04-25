@@ -1,0 +1,13 @@
+\t (00:00:00) padstack_editor 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Apr 22 10:00:32 2026
+\t (00:00:00)         Host=MYRY User=wjq86 Pid=31612 CPUs=16
+\t (00:00:00) CmdLine= padstack_editor -mpssession wjq86 -file C:/Users/wjq86/AppData/Local/Temp/#Taaaaah28168.tmp -pname VIA_03MM05MM-1 -data C:/Users/wjq86/AppData/Local/Temp/#Taaaaak28168.tmp
+\t (00:00:00) 
+\d (00:00:33) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:35) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:37) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\d (00:00:40) QtSignal GuidedTabsParent GuidedTabs currentChanged "Secondary Drill"
+\d (00:00:40) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:42) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:53) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\t (00:00:57)     Journal end - Wed Apr 22 10:01:28 2026
